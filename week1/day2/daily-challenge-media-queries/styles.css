@@ -1,0 +1,86 @@
+
+
+body {
+    width: 100%;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: cover;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.navcontainer {
+    
+    overflow: hidden;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    list-style-type: none;
+    overflow: hidden;
+  
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.about {
+    width: 25%;
+    height: 20px;
+    /* padding-bottom: 30px; */
+    /* line-height: none; */
+    font-style: oblique bold 20px;
+    position: relative; left:100px;bottom: -300px;
+    font-family: 'RocknRoll One', sans-serif;
+    
+}
+
+h1 {
+    text-indent: 20%;
+}
+p {
+  width: 70%;
+  height: 30%;
+  margin-right: 0px;
+  text-indent: 50px;
+  word-spacing: 5px;
+  /* text-align: justify; */
+  /* letter-spacing: 3px; */
+  /* word-wrap: break-word; */
+  position:relative right bottom;
+  display: inline;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+       background-position: bottom;
+}
+li {
+    float:none;
+    width: 100%;
+}
+.navcontainer {
+    margin-top: 0px;
+}
+
+p {
+    word-wrap: break-word;
+}
+.about {
+    text-align: start;
+}
+     
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: darksalmon;
+}
+
+td {
+    text-indent: 10px;
+}
+
+#presention,
+p {
+    background-color: dimgray;
+    color: floralwhite;
+}
+
+#presention,
+h1 {
+    background-color: gold;
+    color: dodgerblue;
+    text-indent: 30px;
+
+}
+
+#thingsInList {
+    margin-bottom: -10px;
+}
+
+div h3 {
+    text-decoration: underline;
+}
+
+table {
+    background: khaki;
+    border-style: dotted;
+    border-width: 5px;
+    margin: opx;
+    padding: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+.linkedin {
+    
+}

@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display:inline-block;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color:cornsilk;
+}
+.logo {
+    display: inline-block;
+}
+.links {
+    display: inline-block;
+    float: right;
+    padding-top: 7%;
+}
+li {
+    /* display: inline; */
+    float: right;
+    padding: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    
+}
+ul {
+    height: 38px;
+    list-style-type: none;
+    color:white;
+    transform: rotate(180deg);
+}
+ul > li {
+    transform: rotate(-180deg);
+}
+li a {
+    color: white;
+    font-size: medium;
+    text-decoration-line: none;
+}
+li a:hover {
+    background-color: lightblue;
+}
+nav {
+    display: inline;
+    width: 100%;
+    height: fit-content;
+}
+footer {
+    background-color:gray;
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+}
+.year {
+    color:goldenrod;
+    float:left;
+    padding-left: 20px;
+    position: relative; left: 200px;
+
+}
+.developer {
+    color: white;
+    float: right;
+    padding-right: 20px;
+    position: relative; right: 200px;
+}
+ .developer a:visited {
+    color:goldenrod;
+} 
+a:hover {
+    background-color:white;
+}   
+.developer a:hover {
+    color:white;
+    background: gray;
+} 
