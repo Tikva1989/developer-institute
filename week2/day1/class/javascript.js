@@ -1,12 +1,7 @@
-// Undegfained Variable
-// alert ('daniel')
-let c="tikva"
-// Only / for string--> use backslash
+/* Exercise 1*/
+let addressNumber = "11";
+let addressStreet = "Ahoza";
+let country = "Israel";
 
-
-//array:
-
-let user1 = "John"
-let user2 = "Bill"
-let user3 = "Nancy"
-let myList =["Nancy","Bill", "John" ]
+let global_address = addressNumber +" "+ addressStreet +" "+ country;
+global_address.display()

@@ -23,4 +23,4 @@ let reversFruites = fruits.reverse();
 // Exercise 2:
 
 let moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-moreFruits.findIndex()
+console.log(moreFruits[1][1][0]);
